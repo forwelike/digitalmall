@@ -99,8 +99,8 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
+  SOCIAL_CARD_TITLE_1: 'Chat',
+  SOCIAL_CARD_TITLE_2: 'If you have any requirement',
   SOCIAL_CARD_TITLE_3: '点击加入社群',
   SOCIAL_CARD_URL: 'https://www.iformore.shop',
 
@@ -113,7 +113,7 @@ const CONFIG = {
   MENU_SEARCH: true, // 显示搜索
 
   POST_LIST_COVER: true, // 列表显示文章封面
-  POST_LIST_COVER_HOVER_ENLARGE: true, // 列表鼠标悬停放大
+  POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
   POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   POST_LIST_SUMMARY: true, // 文章摘要

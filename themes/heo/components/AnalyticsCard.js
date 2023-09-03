@@ -16,25 +16,25 @@ export function AnalyticsCard(props) {
         <div className='text-md flex flex-col space-y-1 justify-center px-3'>
             <div className='inline'>
                 <div className='flex justify-between'>
-                    <div>文章数:</div>
+                    <div>Articles:</div>
                     <div>{postCount}</div>
                 </div>
             </div>
             <div className='inline'>
                 <div className='flex justify-between'>
-                    <div>建站天数:</div>
-                    <div>{diffDays} 天</div>
+                    <div>Web Builded:</div>
+                    <div>{diffDays} days</div>
                 </div>
             </div>
             <div className='hidden busuanzi_container_page_pv'>
                 <div className='flex justify-between'>
-                    <div>访问量:</div>
+                    <div>Visit:</div>
                     <div className='busuanzi_value_page_pv' />
                 </div>
             </div>
             <div className='hidden busuanzi_container_site_uv'>
                 <div className='flex justify-between'>
-                    <div>访客数:</div>
+                    <div>Visitor:</div>
                     <div className='busuanzi_value_site_uv' />
                 </div>
             </div>
